@@ -6,4 +6,7 @@ However, microsoft's GUIDE like any other SOC data set cannot be directly used w
 The subject Data sub set is in CSV format with a size of 3.48 GB and having 796 columns. 
 Since such a large dataset cannot be uploaded directly therefore it has been placed on google drive and a link has been placed within this repository. 
 The access is open for this database with a view to facilitate researches across the globe in making their efforts for achieving a better, more optimized and automated SOC. 
-# Original Data features
+# Dataset Link
+The pre-processed dataset can be accessed and downloaded through this link: https://drive.google.com/file/d/1lOPmmG2cnZX3ORvevhEH1Ypo5jxCnIrJ/view?usp=drive_link
+The downloaded version of dataset has large number of fields and therefore cannot be handled by normal worksheet softwares such as excel.
+However it can be viewed and processed further by using softwares such as Row Zero or Tableau
