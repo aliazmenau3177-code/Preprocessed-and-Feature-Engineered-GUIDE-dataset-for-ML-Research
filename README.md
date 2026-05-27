@@ -63,14 +63,15 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Methodology 
+The processes executed on the original Microsfot GUIDE Dataset to achieve its pre-processed, Machine Learning ready version, are enumerated as follows: -
+
+1. Column normailzation after dataset loading
+2. Binary Label construction
+3. Leakage attirbutes removal
+4. Irrelevant attributes removal
+5. Feature engineering
+   a. Temporal feature engineering - transforming raw timestamp into time of day & day of week format in order to be utilized within the ML process
+   b. MITRE feature engineering - multi valued MITRE ATT&CK technique string converted into numerical indicators basing on counts of various techniques occuring.
+6. One hot encoding - converting all categorical variables into binary numerical vectors 
 
 
-Title – Name of the project or dataset.
-Description – An overview of the code/dataset.
-Dataset Information.
-Code Information.
-Usage Instructions – How to use or load the dataset and code.
-Requirements – Any dependencies (e.g., Python libraries).
-Methodology (if applicable) – Steps taken for data processing or modeling.
-Citations (if applicable) – If this dataset was used in research,provide references.
-License & Contribution Guidelines (if applicable).
