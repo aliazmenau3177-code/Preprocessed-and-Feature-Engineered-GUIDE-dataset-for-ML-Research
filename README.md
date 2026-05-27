@@ -20,10 +20,12 @@ Four sequential processes have been executed on the given dataset to achieve fol
 5. Label trasnformation
 6. Encoding of important features for utilization by ML algorithms
 
-The resulting code contains 
+The resulting code contains the same number of records/ rows as the original one but after the execution of feature engineering and encoding processes the new dataset contains 790 columns
 
 The steps carried out are explained under the heading of methodology
 
+# Code Information 
+The excerpt of my original python script, utilized for carrying out the above mentioned pre processing and feature engineering is provided at the link  
 
 # Method of Access
 The subject Data sub set is in CSV format with a size of 3.48 GB and having 796 columns. 
