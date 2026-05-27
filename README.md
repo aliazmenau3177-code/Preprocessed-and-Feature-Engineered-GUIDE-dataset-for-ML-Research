@@ -1,7 +1,10 @@
-# Preprocessed-and-Feature-Engineered-GUIDE-dataset-for-ML-Research
+# Title: Preprocessed-and-Feature-Engineered-GUIDE-dataset-for-ML-Research-on-SOC
+# Description
 The dataset presented wtihin this repostitory is a pre-processed and feature engineered Data sub set of Microsoft GUIDE which is requried by researchers to carry out ML alogrithm trainings and testings. 
 In 2025 Microsft released the first publicly available Dataset of SOC. The intention was to fill the gap of existing research on SOC, where a verified real world dataset for SOC is not available to researchers. This leads to all SOC research being carried out on Datasets of other technologies such as IDS/ IPS e.t.c. With GUIDE, microsoft has filled this gap. 
-However, microsoft's GUIDE like any other SOC data set cannot be directly used within Machine learning and Data mining algorithms since it contains many features and fields which are either non numeric in nature or do not make sense to the overall ML prediction process. The dataset has to be conditioned through pre-processing and featuer engineering in order to bring it into a shape which can be utilized by machine mearning algorithms. 
+However, microsoft's GUIDE like any other SOC data set cannot be directly used within Machine learning and Data mining algorithms since it contains many features and fields which are either non numeric in nature or do not make sense to the overall ML prediction process. The dataset has to be conditioned through pre-processing and featuer engineering in order to bring it into a shape which can be utilized by machine learning algorithms. 
+# Dataset Information 
+
 # Method of Access
 The subject Data sub set is in CSV format with a size of 3.48 GB and having 796 columns. 
 Since such a large dataset cannot be uploaded directly therefore it has been placed on google drive and a link has been placed within this repository. 
@@ -10,3 +13,17 @@ The access is open for this database with a view to facilitate researches across
 The pre-processed dataset can be accessed and downloaded through this link: https://drive.google.com/file/d/1lOPmmG2cnZX3ORvevhEH1Ypo5jxCnIrJ/view?usp=drive_link
 The downloaded version of dataset has large number of fields and therefore cannot be handled by normal worksheet softwares such as excel.
 However it can be viewed and processed further by using softwares such as Row Zero or Tableau
+
+
+
+
+
+Title – Name of the project or dataset.
+Description – An overview of the code/dataset.
+Dataset Information.
+Code Information.
+Usage Instructions – How to use or load the dataset and code.
+Requirements – Any dependencies (e.g., Python libraries).
+Methodology (if applicable) – Steps taken for data processing ormodeling.
+Citations (if applicable) – If this dataset was used in research,provide references.
+License & Contribution Guidelines (if applicable).
