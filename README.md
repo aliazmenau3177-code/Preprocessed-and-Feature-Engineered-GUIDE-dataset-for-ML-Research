@@ -31,14 +31,35 @@ The excerpt of my original python script, utilized for carrying out the above me
 The subject Data sub set is in CSV format with a size of 3.48 GB and having 796 columns. 
 Since such a large dataset cannot be uploaded directly therefore it has been placed on google drive and a link has been placed within this repository. 
 The access is open for this database with a view to facilitate researches across the globe in making their efforts for achieving a better, more optimized and automated SOC. 
-## Dataset Link
+
+## Method of Access - Dataset Link
 The pre-processed dataset can be accessed and downloaded through this link: https://drive.google.com/file/d/1lOPmmG2cnZX3ORvevhEH1Ypo5jxCnIrJ/view?usp=drive_link
-The downloaded version of dataset has large number of fields and therefore cannot be handled by normal worksheet softwares such as excel.
-However it can be viewed and processed further by using softwares such as Row Zero or Tableau
+The downloaded version of dataset has large number of fields and therefore cannot be previewed by normal worksheet softwares such as excel. It is recommended to download it and utilize within the python script. 
 Moreover the zipped version of the dataset is also available on the link https://drive.google.com/file/d/1rKx3uOlaeg_nVVVAm1Xm6Q7gaRBSOrr6/view?usp=drive_link 
 
+## Loading of Data
+Any researcher who desires to utilize this pre-processed dataset version of Microsoft GUIDE, may download it to his specific folder, from hwere he can upload it into any of his python program by adding the following command within his script :-
 
+DATA_PATH = "/(path to the folder location where the downloaded dataset is stored)/processed_GUIDE.csv"
 
+df = pd.read_csv(DATA_PATH, low_memory=False)
+df.columns = df.columns.str.strip()
+
+print("Dataset Shape:", df.shape)
+print(df['IncidentGrade'].value_counts())
+
+## Usage Instructions
+The aspirant researchers may ingest this pre-processed dataset within their python programms and execute their designed ML algorithms on it directly, without having to go through the hassle of exectuing feature engineering processes on it again. 
+
+# Requirements
+In order to upload and tulize the data within python scripts, the specific python libraries requried can be called wtihin the script as follows: -
+
+import pandas as pd
+import numpy as np
+import warnings
+warnings.filterwarnings("ignore")
+
+# Methodology 
 
 
 Title – Name of the project or dataset.
