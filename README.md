@@ -25,7 +25,7 @@ The resulting code contains the same number of records/ rows as the original one
 The steps carried out are explained under the heading of methodology
 
 # Code Information 
-The excerpt of my original python script, utilized for carrying out the above mentioned pre processing and feature engineering is provided at the link  
+The excerpt of my original python script, utilized for carrying out the above mentioned pre processing and feature engineering is provided alogwith this readme file as the second file named "SOC_
 
 # Method of Access
 The subject Data sub set is in CSV format with a size of 3.48 GB and having 796 columns. 
