@@ -25,13 +25,13 @@ The resulting code contains the same number of records/ rows as the original one
 The steps carried out are explained under the heading of methodology
 
 # Code Information 
-The excerpt of my original python script, utilized for carrying out the above mentioned pre processing and feature engineering is provided alogwith this readme file as the second file named "SOC_
+The excerpt of my original python script, utilized for carrying out the above mentioned pre processing and feature engineering is provided alogwith this readme file as the second file named "SOC_preprocessed_dataset feature engineering script.py"
 
-# Method of Access
+# Method of Access, Usage Instructions and Loading of Data
 The subject Data sub set is in CSV format with a size of 3.48 GB and having 796 columns. 
 Since such a large dataset cannot be uploaded directly therefore it has been placed on google drive and a link has been placed within this repository. 
 The access is open for this database with a view to facilitate researches across the globe in making their efforts for achieving a better, more optimized and automated SOC. 
-# Dataset Link
+## Dataset Link
 The pre-processed dataset can be accessed and downloaded through this link: https://drive.google.com/file/d/1lOPmmG2cnZX3ORvevhEH1Ypo5jxCnIrJ/view?usp=drive_link
 The downloaded version of dataset has large number of fields and therefore cannot be handled by normal worksheet softwares such as excel.
 However it can be viewed and processed further by using softwares such as Row Zero or Tableau
